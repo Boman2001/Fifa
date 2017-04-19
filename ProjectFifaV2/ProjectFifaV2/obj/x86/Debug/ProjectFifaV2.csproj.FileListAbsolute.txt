@@ -24,3 +24,17 @@ C:\Users\Bart Roos\Dropbox\Radius\_Project FIFA\ProjectFifaV2\ProjectFifaV2\obj\
 C:\Users\Bart Roos\Dropbox\Radius\_Project FIFA\ProjectFifaV2\ProjectFifaV2\bin\Debug\db.mdf
 C:\Users\Bart Roos\Dropbox\Radius\_Project FIFA\ProjectFifaV2\ProjectFifaV2\bin\Debug\db_log.ldf
 C:\Users\Bart Roos\Dropbox\Radius\_Project FIFA\ProjectFifaV2\ProjectFifaV2\bin\Debug\ProjectFifaV2.exe.config
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\db.mdf
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\db_log.ldf
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\ProjectFifaV2.exe.config
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\ProjectFifaV2.exe
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\ProjectFifaV2.pdb
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.csprojResolveAssemblyReference.cache
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.frmAdmin.resources
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.frmLogin.resources
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.frmPlayer.resources
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.frmRanking.resources
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.Properties.Resources.resources
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.csproj.GenerateResource.Cache
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.exe
+C:\Users\maart\Desktop\fife github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.pdb
