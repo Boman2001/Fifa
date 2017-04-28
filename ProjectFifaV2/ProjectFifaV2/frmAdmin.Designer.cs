@@ -118,6 +118,7 @@
             this.Name = "frmAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin";
+            this.Load += new System.EventHandler(this.frmAdmin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdminData)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

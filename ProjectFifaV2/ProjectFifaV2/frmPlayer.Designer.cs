@@ -147,6 +147,7 @@
             this.Name = "frmPlayer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PlayerName";
+            this.Load += new System.EventHandler(this.frmPlayer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

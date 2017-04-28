@@ -110,5 +110,10 @@ namespace ProjectFifaV2
                 return false;
             }
         }
+
+        private void frmAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

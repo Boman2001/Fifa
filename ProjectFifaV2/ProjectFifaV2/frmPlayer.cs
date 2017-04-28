@@ -148,5 +148,10 @@ namespace ProjectFifaV2
         {
             userName = un;
         }
+
+        private void frmPlayer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
