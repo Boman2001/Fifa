@@ -102,6 +102,7 @@
             this.lvOverview.TabIndex = 7;
             this.lvOverview.UseCompatibleStateImageBehavior = false;
             this.lvOverview.View = System.Windows.Forms.View.Details;
+            this.lvOverview.SelectedIndexChanged += new System.EventHandler(this.lvOverview_SelectedIndexChanged);
             // 
             // clmHomeTeam
             // 
@@ -131,6 +132,7 @@
             this.pnlPredCard.Name = "pnlPredCard";
             this.pnlPredCard.Size = new System.Drawing.Size(346, 599);
             this.pnlPredCard.TabIndex = 8;
+            this.pnlPredCard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlPredCard_Paint);
             // 
             // frmPlayer
             // 
