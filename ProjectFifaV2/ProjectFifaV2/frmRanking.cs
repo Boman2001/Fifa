@@ -36,6 +36,8 @@ namespace ProjectFifaV2
 
         private void ShowScore()
         {
+            // error voor startup van exe is hier 
+
             //dbh.TestConnection();
             //dbh.OpenConnectionToDB();
 
@@ -55,6 +57,11 @@ namespace ProjectFifaV2
         private void frmRanking_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Hide();
         }
     }
 }

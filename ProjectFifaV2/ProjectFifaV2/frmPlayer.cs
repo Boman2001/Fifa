@@ -163,5 +163,36 @@ namespace ProjectFifaV2
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure you want to clear your prediction?", "Clear Predictions", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (result.Equals(DialogResult.OK))
+            {
+                // Clear predections
+                // Update DB
+            }
+        }
+
+        private void btnEditPrediction_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            // orginele code voor deze was ook leeg
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            frmRanking.Show();
+        }
     }
 }

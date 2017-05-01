@@ -33,11 +33,6 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
-            this.btnLogin = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.btnRegister = new System.Windows.Forms.Button();
-            this.btnShowRanking = new System.Windows.Forms.Button();
-            this.import = new System.Windows.Forms.Button();
             this.pictureBoxLogin = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -57,10 +52,11 @@
             this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.Location = new System.Drawing.Point(94, 20);
             this.txtUsername.MaxLength = 20;
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(312, 20);
+            this.txtUsername.Size = new System.Drawing.Size(312, 26);
             this.txtUsername.TabIndex = 0;
             // 
             // txtPassword
@@ -68,11 +64,12 @@
             this.txtPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.Location = new System.Drawing.Point(94, 67);
             this.txtPassword.MaxLength = 20;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(312, 20);
+            this.txtPassword.Size = new System.Drawing.Size(312, 26);
             this.txtPassword.TabIndex = 1;
             // 
             // lblUsername
@@ -101,72 +98,6 @@
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Password";
             // 
-            // btnLogin
-            // 
-            this.btnLogin.Image = ((System.Drawing.Image)(resources.GetObject("btnLogin.Image")));
-            this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLogin.Location = new System.Drawing.Point(160, 38);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(49, 26);
-            this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Visible = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.BackColor = System.Drawing.Color.Transparent;
-            this.btnExit.Cursor = System.Windows.Forms.Cursors.No;
-            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
-            this.btnExit.Location = new System.Drawing.Point(357, 40);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(49, 26);
-            this.btnExit.TabIndex = 5;
-            this.btnExit.Text = "exit";
-            this.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnExit.UseVisualStyleBackColor = false;
-            this.btnExit.Visible = false;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnRegister
-            // 
-            this.btnRegister.Image = ((System.Drawing.Image)(resources.GetObject("btnRegister.Image")));
-            this.btnRegister.Location = new System.Drawing.Point(215, 37);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(63, 27);
-            this.btnRegister.TabIndex = 6;
-            this.btnRegister.Text = "Register";
-            this.btnRegister.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnRegister.UseVisualStyleBackColor = true;
-            this.btnRegister.Visible = false;
-            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
-            // 
-            // btnShowRanking
-            // 
-            this.btnShowRanking.Image = ((System.Drawing.Image)(resources.GetObject("btnShowRanking.Image")));
-            this.btnShowRanking.Location = new System.Drawing.Point(286, 40);
-            this.btnShowRanking.Name = "btnShowRanking";
-            this.btnShowRanking.Size = new System.Drawing.Size(65, 24);
-            this.btnShowRanking.TabIndex = 7;
-            this.btnShowRanking.Text = "Show Ranking";
-            this.btnShowRanking.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnShowRanking.UseVisualStyleBackColor = true;
-            this.btnShowRanking.Visible = false;
-            this.btnShowRanking.Click += new System.EventHandler(this.btnShowRanking_Click);
-            // 
-            // import
-            // 
-            this.import.Location = new System.Drawing.Point(98, 38);
-            this.import.Name = "import";
-            this.import.Size = new System.Drawing.Size(56, 23);
-            this.import.TabIndex = 8;
-            this.import.Text = "import";
-            this.import.UseVisualStyleBackColor = true;
-            this.import.Visible = false;
-            this.import.Click += new System.EventHandler(this.import_Click);
-            // 
             // pictureBoxLogin
             // 
             this.pictureBoxLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -178,7 +109,7 @@
             this.pictureBoxLogin.Location = new System.Drawing.Point(12, 105);
             this.pictureBoxLogin.Name = "pictureBoxLogin";
             this.pictureBoxLogin.Size = new System.Drawing.Size(126, 103);
-            this.pictureBoxLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBoxLogin.TabIndex = 9;
             this.pictureBoxLogin.TabStop = false;
             this.pictureBoxLogin.Click += new System.EventHandler(this.pictureBoxLogin_Click);
@@ -190,7 +121,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell Nova Cond", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 209);
+            this.label1.Location = new System.Drawing.Point(40, 209);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 39);
             this.label1.TabIndex = 10;
@@ -204,10 +135,10 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 247);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 251);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(126, 101);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -236,7 +167,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(298, 105);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(128, 103);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
@@ -277,7 +208,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Rockwell Nova Cond", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(338, 353);
+            this.label4.Location = new System.Drawing.Point(336, 353);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 39);
             this.label4.TabIndex = 16;
@@ -297,11 +228,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBoxLogin);
-            this.Controls.Add(this.import);
-            this.Controls.Add(this.btnShowRanking);
-            this.Controls.Add(this.btnRegister);
-            this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.txtPassword);
@@ -328,11 +254,6 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblUsername;
         private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnRegister;
-        private System.Windows.Forms.Button btnShowRanking;
-        private System.Windows.Forms.Button import;
         private System.Windows.Forms.PictureBox pictureBoxLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
