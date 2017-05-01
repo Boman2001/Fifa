@@ -36,6 +36,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnShowRanking = new System.Windows.Forms.Button();
+            this.import = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtUsername
@@ -113,11 +114,23 @@
             this.btnShowRanking.UseVisualStyleBackColor = true;
             this.btnShowRanking.Click += new System.EventHandler(this.btnShowRanking_Click);
             // 
+            // import
+            // 
+            this.import.Location = new System.Drawing.Point(146, 150);
+            this.import.Name = "import";
+            this.import.Size = new System.Drawing.Size(56, 23);
+            this.import.TabIndex = 8;
+            this.import.Text = "import";
+            this.import.UseVisualStyleBackColor = true;
+            this.import.Visible = false;
+            this.import.Click += new System.EventHandler(this.import_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 222);
+            this.ClientSize = new System.Drawing.Size(356, 229);
+            this.Controls.Add(this.import);
             this.Controls.Add(this.btnShowRanking);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnExit);
@@ -148,6 +161,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnShowRanking;
+        private System.Windows.Forms.Button import;
     }
 }
 

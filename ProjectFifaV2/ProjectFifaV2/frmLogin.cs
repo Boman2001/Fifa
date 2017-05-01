@@ -134,5 +134,20 @@ namespace ProjectFifaV2
         {
 
         }
+
+        private void import_Click(object sender, EventArgs e)
+        {
+    
+            OpenFileDialog file = new OpenFileDialog();
+            file.Filter = "csv files (*.csv)|*.csv";
+            file.Title = "selecteer een valid csv file AUB";
+            if (file.ShowDialog() == DialogResult.OK)
+            {
+                
+            }
+
+
+           
+        }
     }
 }
