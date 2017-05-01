@@ -36,8 +36,8 @@ namespace ProjectFifaV2
 
         private void ShowScore()
         {
-            dbh.TestConnection();
-            dbh.OpenConnectionToDB();
+            //dbh.TestConnection();
+            //dbh.OpenConnectionToDB();
 
             DataTable table = dbh.FillDT("SELECT Username, Score FROM tblUsers WHERE (IsAdmin = 0) ORDER BY Score DESC");
 
@@ -50,6 +50,11 @@ namespace ProjectFifaV2
                 lvRanking.Items.Add(lstItem);
             }
             dbh.CloseConnectionToDB();
+        }
+
+        private void frmRanking_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

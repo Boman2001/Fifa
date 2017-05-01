@@ -85,6 +85,7 @@
             this.Name = "frmRanking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ranking";
+            this.Load += new System.EventHandler(this.frmRanking_Load);
             this.ResumeLayout(false);
 
         }
