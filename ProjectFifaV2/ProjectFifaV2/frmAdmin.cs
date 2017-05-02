@@ -110,5 +110,56 @@ namespace ProjectFifaV2
                 return false;
             }
         }
+
+        private void frmAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (!(txtPath.Text == null))
+            {
+                dbh.OpenConnectionToDB();
+
+                dbh.CloseConnectionToDB();
+            }
+            else
+            {
+                MessageHandler.ShowMessage("No filename selected.");
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            txtPath.Text = null;
+
+            string path = GetFilePath();
+
+            if (CheckExtension(path, "csv"))
+            {
+                txtPath.Text = path;
+            }
+            else
+            {
+                MessageHandler.ShowMessage("The wrong filetype is selected.");
+            }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (txtQuery.TextLength > 0)
+            {
+                ExecuteSQL(txtQuery.Text);
+            }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            txtQuery.Text = null;
+            txtPath = null;
+            dgvAdminData.DataSource = null;
+            Hide();
+        }
     }
 }
