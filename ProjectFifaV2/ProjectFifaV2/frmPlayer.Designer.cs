@@ -112,7 +112,7 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(376, 515);
+            this.pictureBox1.Location = new System.Drawing.Point(388, 516);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(134, 87);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -124,7 +124,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(412, 605);
+            this.label1.Location = new System.Drawing.Point(424, 606);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 22);
             this.label1.TabIndex = 10;
@@ -135,7 +135,7 @@
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(376, 346);
+            this.pictureBox2.Location = new System.Drawing.Point(388, 347);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(134, 80);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -147,7 +147,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Rockwell Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(396, 429);
+            this.label2.Location = new System.Drawing.Point(408, 430);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 22);
             this.label2.TabIndex = 12;
@@ -158,7 +158,7 @@
             this.btnEditPrediction.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.btnEditPrediction.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditPrediction.Image = ((System.Drawing.Image)(resources.GetObject("btnEditPrediction.Image")));
-            this.btnEditPrediction.Location = new System.Drawing.Point(376, 211);
+            this.btnEditPrediction.Location = new System.Drawing.Point(388, 212);
             this.btnEditPrediction.Name = "btnEditPrediction";
             this.btnEditPrediction.Size = new System.Drawing.Size(134, 37);
             this.btnEditPrediction.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -170,7 +170,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Rockwell Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(396, 251);
+            this.label3.Location = new System.Drawing.Point(408, 252);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 22);
             this.label3.TabIndex = 14;
@@ -181,7 +181,7 @@
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(376, 36);
+            this.pictureBox4.Location = new System.Drawing.Point(388, 37);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(134, 80);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -193,7 +193,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Rockwell Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(396, 119);
+            this.label4.Location = new System.Drawing.Point(408, 120);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(92, 22);
             this.label4.TabIndex = 16;
