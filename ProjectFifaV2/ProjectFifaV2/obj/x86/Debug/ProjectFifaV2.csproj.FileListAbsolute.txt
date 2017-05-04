@@ -53,3 +53,17 @@ C:\Users\Patrick\Documents\MEGA\Periode_4\SP\Fifa\Github\Fifa\ProjectFifaV2\Proj
 C:\Users\Patrick\Documents\MEGA\Periode_4\SP\Fifa\Github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.csproj.GenerateResource.Cache
 C:\Users\Patrick\Documents\MEGA\Periode_4\SP\Fifa\Github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.exe
 C:\Users\Patrick\Documents\MEGA\Periode_4\SP\Fifa\Github\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.pdb
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\db.mdf
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\db_log.ldf
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\ProjectFifaV2.exe.config
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\ProjectFifaV2.exe
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\bin\Debug\ProjectFifaV2.pdb
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.csprojResolveAssemblyReference.cache
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.frmAdmin.resources
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.frmLogin.resources
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.frmPlayer.resources
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.frmRanking.resources
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.Properties.Resources.resources
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.csproj.GenerateResource.Cache
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.exe
+C:\Users\maart\Desktop\fife github\final fifa\Fifa\ProjectFifaV2\ProjectFifaV2\obj\x86\Debug\ProjectFifaV2.pdb

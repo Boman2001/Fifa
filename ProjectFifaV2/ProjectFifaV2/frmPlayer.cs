@@ -75,9 +75,12 @@ namespace ProjectFifaV2
 
         private void ShowResults()
         {
-            dbh.TestConnection();
-            dbh.OpenConnectionToDB();
+            //message when opening form 
+            //disabled here
+           // dbh.TestConnection();
+           // dbh.OpenConnectionToDB();             '
 
+        
             DataTable hometable = dbh.FillDT("SELECT tblTeams.TeamName, tblGames.HomeTeamScore FROM tblGames INNER JOIN tblTeams ON tblGames.HomeTeam = tblTeams.Team_ID");
             DataTable awayTable = dbh.FillDT("SELECT tblTeams.TeamName, tblGames.AwayTeamScore FROM tblGames INNER JOIN tblTeams ON tblGames.AwayTeam = tblTeams.Team_ID");
 
@@ -97,8 +100,10 @@ namespace ProjectFifaV2
 
         private void ShowScoreCard()
         {
-            dbh.TestConnection();
-            dbh.OpenConnectionToDB();
+            //message when opening form 
+            //disabled here
+            // dbh.TestConnection();
+            // dbh.OpenConnectionToDB();   
 
             DataTable hometable = dbh.FillDT("SELECT tblTeams.TeamName FROM tblGames INNER JOIN tblTeams ON tblGames.HomeTeam = tblTeams.Team_ID");
             DataTable awayTable = dbh.FillDT("SELECT tblTeams.TeamName FROM tblGames INNER JOIN tblTeams ON tblGames.AwayTeam = tblTeams.Team_ID");
