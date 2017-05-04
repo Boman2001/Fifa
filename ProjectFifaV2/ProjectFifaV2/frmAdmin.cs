@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 using System.Data.SqlClient;
 
 namespace ProjectFifaV2
@@ -70,7 +71,11 @@ namespace ProjectFifaV2
             if (!(txtPath.Text == null))
             {
                 dbh.OpenConnectionToDB();
+                //csv load!!
+                
 
+
+                //END
                 dbh.CloseConnectionToDB();
             }
             else
@@ -83,7 +88,7 @@ namespace ProjectFifaV2
         {
             string filePath = "";
             opfd = new OpenFileDialog();
-
+            opfd.Filter = "CSV Files (*.csv)|*.csv";
             opfd.Multiselect = false;
 
             if (opfd.ShowDialog() == DialogResult.OK)
@@ -118,15 +123,36 @@ namespace ProjectFifaV2
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (!(txtPath.Text == null))
+            if ((txtPath.Text.ToLower().Contains("teams")))
             {
                 dbh.OpenConnectionToDB();
+                using (StreamReader reader = new StreamReader(txtPath.Text))
+                {
+                    SqlCommand clear = new SqlCommand("DELETE FROM TblTeams WHERE Team_id IS NOT NULL", dbh.GetCon());
+                    SqlDataReader read;
+                    read = clear.ExecuteReader();
+                    read.Close();
 
+                    SqlCommand Identity = new SqlCommand("SET IDENTITY_INSERT TblTeams ON", dbh.GetCon());
+                    read = clear.ExecuteReader();
+                    read.Close();
+                    int i = 0;
+                    do
+                    {
+                        string[] items = reader.ReadLine().Split(';');
+                        using (SqlCommand cmd = new SqlCommand("INSERT INTO TblTeams (TeamName) VALUES ('"+ items[1].Trim(new char[] { '"' }) +"')", dbh.GetCon()))
+                        {
+                            read = cmd.ExecuteReader();
+                            read.Close();
+                            i++;
+                        }
+                    } while (!reader.EndOfStream);
+                }
                 dbh.CloseConnectionToDB();
             }
             else
             {
-                MessageHandler.ShowMessage("No filename selected.");
+                MessageHandler.ShowMessage("File not supported");
             }
         }
 
